@@ -15,6 +15,8 @@
 		074E15812535602800DA8B41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 074E157F2535602800DA8B41 /* LaunchScreen.storyboard */; };
 		074E158C2535602800DA8B41 /* TDD_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074E158B2535602800DA8B41 /* TDD_iOSTests.swift */; };
 		074E15972535602800DA8B41 /* TDD_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074E15962535602800DA8B41 /* TDD_iOSUITests.swift */; };
+		074E15A8253560BC00DA8B41 /* Greeting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074E15A7253560BC00DA8B41 /* Greeting.swift */; };
+		074E15AD2535616C00DA8B41 /* GreetingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074E15AC2535616C00DA8B41 /* GreetingTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		074E15922535602800DA8B41 /* TDD-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TDD-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		074E15962535602800DA8B41 /* TDD_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDD_iOSUITests.swift; sourceTree = "<group>"; };
 		074E15982535602800DA8B41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		074E15A7253560BC00DA8B41 /* Greeting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Greeting.swift; sourceTree = "<group>"; };
+		074E15AC2535616C00DA8B41 /* GreetingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,7 @@
 				074E157D2535602800DA8B41 /* Assets.xcassets */,
 				074E157F2535602800DA8B41 /* LaunchScreen.storyboard */,
 				074E15822535602800DA8B41 /* Info.plist */,
+				074E15A7253560BC00DA8B41 /* Greeting.swift */,
 			);
 			path = "TDD-iOS";
 			sourceTree = "<group>";
@@ -115,6 +120,7 @@
 			children = (
 				074E158B2535602800DA8B41 /* TDD_iOSTests.swift */,
 				074E158D2535602800DA8B41 /* Info.plist */,
+				074E15AC2535616C00DA8B41 /* GreetingTests.swift */,
 			);
 			path = "TDD-iOSTests";
 			sourceTree = "<group>";
@@ -260,6 +266,7 @@
 			files = (
 				074E15792535602600DA8B41 /* ViewController.swift in Sources */,
 				074E15752535602600DA8B41 /* AppDelegate.swift in Sources */,
+				074E15A8253560BC00DA8B41 /* Greeting.swift in Sources */,
 				074E15772535602600DA8B41 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				074E15AD2535616C00DA8B41 /* GreetingTests.swift in Sources */,
 				074E158C2535602800DA8B41 /* TDD_iOSTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
